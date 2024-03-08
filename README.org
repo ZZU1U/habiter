@@ -1,0 +1,29 @@
+#+TITLE:     Habiter
+#+SUBTITLE:  App for tracking habits
+#+AUTHOR:    Глеб Анохин
+#+DESCRIPTION: Org mode syntax example
+#+KEYWORDS:  org-mode, syntax, quick reference, cheat sheet, recommended practices, latex, beamer, html
+#+OPTIONS:   H:4 num:nil toc:2 p:t
+
+* Оглавление :toc: :noexport:
+- [[#о-проекте][О проекте]]
+
+* О проекте
+Этот проект был создан в образовательных целях
+в рамках обучения в Яндекс Лицее.
+
+Habiter (франц. habiter, рус. - жить) - приложение для отслеживания
+привычек вдохновленный [[https://habitica.com/][Habitica]].
+
+Причины по которым habiter > habitica
+ - Количественные привычки - например количество пройденных км за день
+   или милилитров выпитой воды.
+ - Подробная статистика - вы сможете просмотреть насколько
+   часто и как хорошо вы выполняли ваши привычки.
+ - Открытые/личные дневники - если вы хотите сохранить или
+   поделиться своими эмоциями.
+
+* Задачи
+- [ ] DB
+- [ ] API
+- [ ] Flaks web app

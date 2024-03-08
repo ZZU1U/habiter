@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "habiter"
+version = "0.1.0"
+description = "app to track your habits"
+authors = ["glrb <zzu1u@list.ru>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+Flask = "^3.0.2"
+Flask-WTF = "^1.2.1"
+sqlalchemy-serializer = "^1.4.1"
+sqlalchemy = "^2.0.28"
+flask-restful = "^0.3.10"
+
+
+[tool.poetry.group.dev.dependencies]
+alembic = "^1.13.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
